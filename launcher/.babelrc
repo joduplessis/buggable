@@ -1,0 +1,9 @@
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": [
+        ["syntax-async-functions"],
+        ["@babel/plugin-transform-runtime"],
+        ["transform-class-properties", { "spec": true }],
+        ["@babel/plugin-syntax-dynamic-import"]
+    ]
+}

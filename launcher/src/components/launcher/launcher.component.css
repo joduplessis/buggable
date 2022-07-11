@@ -1,0 +1,262 @@
+.screenshotter__launcher-component {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: column;
+    flex: 1;
+    max-width: 710px;
+    position: relative;
+}
+
+/* Header */
+
+.screenshotter__launcher-component__header {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.screenshotter__launcher-component__header-logo {
+    padding-top: 40px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.screenshotter__launcher-component__header-logo-image {
+    height: 60px;
+    position: relative;
+    top: 10px;
+}
+
+.screenshotter__launcher-component__header-logo-image img {
+    height: 60px;
+}
+
+.screenshotter__launcher-component__header-heading {
+    font-size: 25px;
+    font-weight: 800;
+    color: #21262a;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.screenshotter__launcher-component__header-subheading {
+    font-size: 14px;
+    font-weight: 400;
+    color: #b3b8bd;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+}
+
+/* Actions */
+
+.screenshotter__launcher-component__actions {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.screenshotter__launcher-component__action {
+    display: flex;
+    position: relative;
+    width: calc(100% + 40px);
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: row;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.25s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: -20px;
+}
+
+.screenshotter__launcher-component__action:hover {
+    background-color: #f0f3f5;
+}
+
+.screenshotter__launcher-component__action-icon {
+    margin-left: 20px;
+}
+
+.screenshotter__launcher-component__action-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.screenshotter__launcher-component__action-text {
+    flex: 1;
+    padding: 0px 20px 0px 0px;
+}
+
+.screenshotter__launcher-component__action-text-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: #21262a;
+    margin-left: 20px;
+}
+
+.screenshotter__launcher-component__action-text-subtext {
+    font-size: 12px;
+    font-weight: 500;
+    color: #b3b8bd;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+/* Resources */
+
+.screenshotter__launcher-component__resources {
+    padding: 40px;
+    padding-top: 0px;
+}
+
+.screenshotter__launcher-component__resource-heading {
+    font-size: 12px;
+    font-weight: 900;
+    color: #343b40;
+    margin-bottom: 10px;
+}
+
+.screenshotter__launcher-component__resources-content {
+    font-size: 12px;
+    font-weight: 500;
+    color: #b3b8bd;
+}
+
+.screenshotter__launcher-component__resources a {
+    color: #21252b;
+    text-decoration: none;
+}
+
+.screenshotter__launcher-component__resources a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+
+.screenshotter__launcher-component__footer {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: row;
+    border-top: 0px solid #f0f3f5;
+}
+
+.screenshotter__launcher-component__footer-panel {
+    flex: 1;
+    padding: 0px;
+}
+
+/* tools */
+
+.screenshotter__launcher-component__tools {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.screenshotter__launcher-component__tool {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    background-color: #f1f3f5;
+    display: flex;
+    padding: 5px 10px 5px 10px;
+    border-radius: 1rem;
+    flex: none;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: fit-content;
+}
+
+.screenshotter__launcher-component__tool:hover {
+    background-color: #eaecee;
+}
+
+.screenshotter__launcher-component__tool-icon {
+    position: relative;
+    top: 1.5px;
+}
+
+.screenshotter__launcher-component__tool-icon svg {
+    width: 15px;
+    height: 15px;
+}
+
+.screenshotter__launcher-component__tool-icon svg path {
+    fill: #adb5be;
+}
+
+.screenshotter__launcher-component__tool:hover svg path {
+    fill: #4a5057;
+}
+
+.screenshotter__launcher-component__tool-text {
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #adb5be;
+    margin-left: 10px;
+}
+
+.screenshotter__launcher-component__tool:hover .screenshotter__launcher-component__tool-text {
+    display: block;
+}
+
+.screenshotter__launcher-component__tool:hover .screenshotter__launcher-component__tool-text {
+    color: #4a5057;
+}
+
+/* dark mode */
+
+.screenshotter__darkmode .screenshotter__launcher-component__header-heading,
+.screenshotter__darkmode .screenshotter__launcher-component__action-text-text,
+.screenshotter__darkmode .screenshotter__launcher-component__resource-heading,
+.screenshotter__darkmode .screenshotter__launcher-component__tool:hover .screenshotter__launcher-component__tool-text,
+.screenshotter__darkmode .screenshotter__launcher-component__tool-text {
+    color: #cbd1d5;
+}
+
+.screenshotter__darkmode .screenshotter__launcher-component__tool:hover svg path {
+    fill: #cbd1d5;
+}
+
+.screenshotter__darkmode .screenshotter__launcher-component__tool,
+.screenshotter__darkmode .screenshotter__launcher-component__action:hover {
+    background-color: #3b3e3f;
+}
+
+.screenshotter__darkmode .screenshotter__launcher-component__tool:hover {
+    background-color: #454a4b;
+}
+
+.screenshotter__darkmode .screenshotter__launcher-component__header-subheading,
+.screenshotter__darkmode .screenshotter__launcher-component__action-text-subtext,
+.screenshotter__darkmode .screenshotter__launcher-component__resources-content {
+    color: #83878a;
+}

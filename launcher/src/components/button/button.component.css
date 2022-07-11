@@ -1,0 +1,35 @@
+.screenshotter__button-component {
+    padding: 30px;
+    padding-top: 0px;
+}
+
+.screenshotter__button-component-button {
+    background: #21262a;
+    color: #858e96;
+    font-size: 16px;
+    font-weight: 500;
+    flex: 1;
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    border: none;
+    width: 100%;
+}
+
+.screenshotter__button-component-button:hover {
+    background-color: #21262a;
+    color: white;
+}
+
+/* dark mode */
+
+.screenshotter__darkmode .screenshotter__button-component-button {
+    background: #83878a;
+    color: #21262a;
+}
+
+.screenshotter__darkmode .screenshotter__button-component-button:hover {
+    background-color: #3b3e3f;
+    color: #83878a;
+}

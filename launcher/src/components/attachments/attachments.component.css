@@ -1,0 +1,153 @@
+.screenshotter__attachments-component {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.screenshotter__attachments-component__tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.screenshotter__attachments-component__tool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    flex-direction: row;
+    padding: 7px;
+    flex: 1;
+    margin-right: 10px;
+    transition: background-color 0.2s;
+    background: #21262a;
+    border-radius: 20px;
+}
+
+.screenshotter__attachments-component__tool:last-child {
+    margin-right: 0px;
+}
+
+.screenshotter__attachments-component__tool-text {
+    color: #858e96;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 5px;
+    transition: color 0.2s;
+}
+
+.screenshotter__attachments-component__tool:hover .screenshotter__attachments-component__tool-text {
+    color: #dee2e5;
+}
+
+.screenshotter__attachments-component__tool svg {
+    width: 15px;
+    height: 15px;
+}
+
+.screenshotter__attachments-component__tool svg path {
+    fill: #858e96;
+}
+
+.screenshotter__attachments-component__tool:hover svg path {
+    fill: #dee2e5;
+}
+
+.screenshotter__attachments-component__tool:hover {
+    background-color: #21262a;
+}
+
+.screenshotter__attachments-component__attachments {
+    margin-top: 5px;
+}
+
+.screenshotter__attachments-component__attachment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.screenshotter__attachments-component__attachment-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.screenshotter__attachments-component__attachment-icon svg path {
+    fill: #333b3f;
+}
+
+.screenshotter__attachments-component__attachment-name {
+    font-size: 0.75rem;
+    color: #333b3f;
+    font-weight: 700;
+    flex: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.screenshotter__attachments-component__attachment-name:hover {
+    text-decoration: underline;
+}
+
+.screenshotter__attachments-component__attachment-delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.screenshotter__attachments-component__attachment-delete svg path {
+    fill: #cfd4d9;
+}
+
+.screenshotter__attachments-component__attachment-delete:hover svg path {
+    fill: #333b3f;
+}
+
+/* dark mode */
+
+.screenshotter__darkmode .screenshotter__attachments-component__tool svg path,
+.screenshotter__darkmode .screenshotter__attachments-component__attachment-icon svg path {
+    fill: #21262a;
+}
+
+.screenshotter__darkmode .screenshotter__attachments-component__tool:hover svg path,
+.screenshotter__darkmode .screenshotter__attachments-component__attachment-icon:hover svg path {
+    fill: #83878a;
+}
+
+.screenshotter__darkmode .screenshotter__attachments-component__tool-text {
+    color: #21262a;
+}
+
+.screenshotter__darkmode .screenshotter__attachments-component__tool:hover .screenshotter__attachments-component__tool-text {
+    color: #83878a;
+}
+
+.screenshotter__darkmode .screenshotter__attachments-component__tool {
+    background: #83878a;
+}
+
+.screenshotter__darkmode .screenshotter__attachments-component__tool:hover {
+    background-color: #3b3e3f;
+}

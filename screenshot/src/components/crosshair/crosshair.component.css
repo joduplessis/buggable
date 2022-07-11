@@ -1,0 +1,25 @@
+.crosshair-component {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #e4002b;
+    position: absolute;
+    z-index: 2000;
+    top: 0px;
+    left: 0px;
+    transform: translateX(-50%) translateY(-50%);
+    animation: border-pulsate 0.5s infinite;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
+@keyframes border-pulsate {
+    0% {
+        border-width: 0px;
+    }
+    50% {
+        border-width: 5px;
+    }
+    100% {
+        border-width: 0px;
+    }
+}

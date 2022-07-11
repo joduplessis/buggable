@@ -1,0 +1,15 @@
+.rating-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.rating-component__star {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+}

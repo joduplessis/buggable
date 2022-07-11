@@ -1,0 +1,31 @@
+.screenshotter__action-component {
+    width: 100%;
+    padding: 30px;
+    padding-top: 40px;
+}
+
+.screenshotter__action-component-label {
+    font-size: 16px;
+    font-weight: 700;
+    color: #21262a;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.screenshotter__action-component-description {
+    font-size: 12px;
+    font-weight: 500;
+    color: #b3b8bd;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* dark mode */
+
+.screenshotter__darkmode .screenshotter__action-component-label {
+    color: #cbd1d5;
+}
+
+.screenshotter__darkmode .screenshotter__action-component-description {
+    color: #83878a;
+}

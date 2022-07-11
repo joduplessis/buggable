@@ -1,0 +1,11 @@
+.error-component {
+    margin-top: 20px;
+}
+
+.error-component p {
+    font-size: 1rem;
+    color: red;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}

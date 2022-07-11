@@ -1,0 +1,145 @@
+.screenshotter__modal-component {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.screenshotter__modal-component.context {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.screenshotter__modal-component__outer {
+    background: rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+.screenshotter__modal-component__outer.context {
+    background: transparent;
+}
+
+.screenshotter__modal-component__inner {
+    background: #ffffff;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    position: relative;
+    width: 450px;
+    min-width: 450px;
+    border-radius: 20px;
+}
+
+.screenshotter__modal-component__inner.context {
+    position: absolute;
+    transform: translateY(-50%);
+    width: 350px;
+    min-width: 350px;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.05);
+    transition: opacity 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.screenshotter__modal-component__body {
+    flex: 1;
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    min-height: 50px;
+    transition: width 1s;
+}
+
+.screenshotter__modal-component__body-inner {
+    flex: 1;
+    min-height: 50px;
+    height: fit-content;
+    width: 100%;
+    transition: width 1s;
+}
+
+.screenshotter__modal-component__back svg path,
+.screenshotter__modal-component__close svg path {
+    fill: #404c5a;
+}
+
+.screenshotter__modal-component__back {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 40px;
+    height: 40px;
+    background: white;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: opacity 0.1s, background 0.1s;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 100;
+}
+
+.screenshotter__modal-component__back:hover {
+    background: #f0f3f5;
+    opacity: 1;
+}
+
+.screenshotter__modal-component__close {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 40px;
+    height: 40px;
+    background: white;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: opacity 0.1s, background 0.1s;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 100;
+}
+
+.screenshotter__modal-component__close:hover {
+    background: #f0f3f5;
+    opacity: 1;
+}
+
+/* dark mode */
+
+.screenshotter__darkmode .screenshotter__modal-component__inner,
+.screenshotter__modal-component__inner.screenshotter__darkmode {
+    background: #2a2c2d;
+}
+
+.screenshotter__darkmode .screenshotter__modal-component__close:hover,
+.screenshotter__darkmode .screenshotter__modal-component__back:hover {
+    background: #29292a;
+    opacity: 1;
+}
+
+.screenshotter__darkmode .screenshotter__modal-component__back:hover svg path,
+.screenshotter__darkmode .screenshotter__modal-component__close:hover svg path {
+    fill: #8898aa;
+}

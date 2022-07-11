@@ -1,0 +1,152 @@
+.app {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+canvas.app__background {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.app__draw {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-sizing: border-box;
+    z-index: 50;
+}
+
+.app__svg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 20;
+}
+
+.app.delete {
+    cursor: pointer;
+}
+
+.app__colors {
+    height: 50px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: white;
+    border-radius: 20px;
+}
+
+.app__colors span {
+    margin-right: 5px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.app__colors span:hover {
+    opacity: 0.8;
+}
+
+.app__colors span:last-child {
+    margin-right: 0px;
+}
+
+.app__tools {
+    height: 50px;
+    width: fit-content;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.app__tool {
+    background: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 50px;
+    z-index: 100;
+    position: relative;
+}
+
+.app__tool.select_color:after {
+    top: 0%;
+    right: 50%;
+    border: solid transparent;
+    content: ' ';
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: white;
+    border-width: 5px;
+    margin-top: -10px;
+    transform: translateX(50%) rotate(180deg);
+}
+
+.app__tool.active {
+    background: #dde2e5;
+}
+
+.app__tool:last-child {
+    border-top-right-radius: 20px;
+    padding-right: 20px;
+    border-left: 1px solid #dde2e5;
+}
+
+.app__tool:first-child {
+    border-top-left-radius: 20px;
+    border-right: 1px solid #dde2e5;
+    padding-left: 20px;
+}
+
+.app__tool {
+    bottom: 0px;
+    right: 0px;
+}
+
+.app__tool-text {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #4a5057;
+    padding-left: 5px;
+}
+
+.app__tool:hover {
+    background: #dde2e5;
+}
