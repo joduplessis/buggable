@@ -44,4 +44,4 @@ This was an experiment to see how hard it would be to replicate some of the func
 
 For information on widget settings, see the `launcher/src/index.js` & `launcher/src/index.html` files.
 
-For any questions, please feel free to open an issue.
+For any questions, please feel free to open an issue (I will add more/better docs as soon as I can).
