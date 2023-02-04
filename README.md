@@ -1,18 +1,18 @@
-# Screenshotter
+# Bugable
 
-Screenshotter is a small screenshot & user feedback component. It replicates the basic functionality of a tool like <a href="https://userback.io">UserBack</a> or <a href="https://usersnap.com">UserSnap</a>. It also adds a few nice things not found in those tools.
+Bugable is a small screenshot & user feedback component. It replicates the basic functionality of a tool like <a href="https://userback.io">UserBack</a> or <a href="https://usersnap.com">UserSnap</a>. It also adds a few nice things not found in those tools.
 
 ##### Screenshots
 
 <p float="left">
-  <img src="https://joduplessis.com/store-images/Screenshotter/01.png" width="15%">
-  <img src="https://joduplessis.com/store-images/Screenshotter/02.png" width="15%">
-  <img src="https://joduplessis.com/store-images/Screenshotter/03.png" width="15%">
-  <img src="https://joduplessis.com/store-images/Screenshotter/04.png" width="15%">
-  <img src="https://joduplessis.com/store-images/Screenshotter/05.png" width="15%">
-  <img src="https://joduplessis.com/store-images/Screenshotter/06.png" width="15%">
-  <img src="https://joduplessis.com/store-images/Screenshotter/07.png" width="15%">
-  <img src="https://joduplessis.com/store-images/Screenshotter/08.png" width="15%">
+  <img src="https://joduplessis.com/store-images/Bugable/01.png" width="15%">
+  <img src="https://joduplessis.com/store-images/Bugable/02.png" width="15%">
+  <img src="https://joduplessis.com/store-images/Bugable/03.png" width="15%">
+  <img src="https://joduplessis.com/store-images/Bugable/04.png" width="15%">
+  <img src="https://joduplessis.com/store-images/Bugable/05.png" width="15%">
+  <img src="https://joduplessis.com/store-images/Bugable/06.png" width="15%">
+  <img src="https://joduplessis.com/store-images/Bugable/07.png" width="15%">
+  <img src="https://joduplessis.com/store-images/Bugable/08.png" width="15%">
 </p>
 
 #### Some of the features it supports are:
