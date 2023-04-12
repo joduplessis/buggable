@@ -15,13 +15,13 @@ const widgetObj = (position) => {
                     background: '#001639',
                     border: 'transparent',
                 },
-                text: 'Give Feedback',
+                text: 'Give Feedback Now',
                 position,
             },
             submit: 'Send',
-            theme: '', // LIGHT/DARK/EMPTY for auto
+            theme: 'light', // LIGHT/DARK/EMPTY for auto
             logo: 'https://joduplessis.com/static/img/avatar.9a00d50.png',
-            background: 'https://pbs.twimg.com/profile_banners/19925686/1603620193/1500x500',
+            background: 'https://pbs.twimg.com/profile_banners/19925686/1675676903/1500x500',
             heading: 'A modern user feedback stack for everyone.',
             subheading: 'Level up your product by giving your users the tools they need to report bugs, send feedback.',
             actions: [
@@ -55,7 +55,7 @@ const widgetObj = (position) => {
                             description: '',
                             type: 'RATING',
                             placeholder: 'Rating placeholder',
-                            value: '',
+                            value: '3',
                             property: 'RATING',
                         },
                         {
@@ -76,7 +76,6 @@ const widgetObj = (position) => {
                         'https://cdn-icons.flaticon.com/png/512/4225/premium/4225678.png?token=exp=1657569854~hmac=62be12b6b8752fd5352df54e45cafad1',
                     type: 'TID2',
                     exec: '',
-                    fields: [],
                 },
                 {
                     text: 'Give us your opinion',
@@ -132,7 +131,7 @@ const widgetObj = (position) => {
     }
 }
 
-const widgets = [widgetObj('TOP_LEFT')]
+const widgets = [widgetObj('TOP_RIGHT')]
 
 /**
 widgetObj('TOP_LEFT'),
