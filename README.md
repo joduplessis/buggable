@@ -1,6 +1,6 @@
-# Bugable
+# Buggable
 
-Bugable is a small screenshot & user feedback component. It replicates the basic functionality of a tool like <a href="https://userback.io">UserBack</a> or <a href="https://usersnap.com">UserSnap</a>. It also adds a few nice things not found in those tools.
+Buggable is a small screenshot & user feedback component. It replicates the basic functionality of a tool like <a href="https://userback.io">UserBack</a> or <a href="https://usersnap.com">UserSnap</a>. It also adds a few nice things not found in those tools.
 
 ##### Screenshots
 
